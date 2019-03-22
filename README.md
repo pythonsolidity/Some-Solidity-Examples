@@ -1,1 +1,1 @@
-# SomeSolidityExamples
+# Some Solidity Examples for Beginners
