@@ -22,7 +22,7 @@ contract MyContract {
     
     function addPerson2(string memory _firstName, string memory _lastName) public {
         peopleCount2 += 1;
-        people2[peopleCount] = Person(peopleCount, _firstName, _lastName);
+        people2[peopleCount2] = Person(peopleCount, _firstName, _lastName);
     }
     
      function addPerson(string memory _firstName, string memory _lastName) public {
