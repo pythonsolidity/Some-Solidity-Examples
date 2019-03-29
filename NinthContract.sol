@@ -8,7 +8,14 @@ contract MyContract {
     bytes1 public y = 0;
     //bytes32 public y1;
     bytes32 public y2;
-
+    
+    string public response;
+    
+    
+    constructor () public payable {
+        msg.value >= 1 ether ? response = "I am rich" : response = "I am cheap";
+    }
+    
 
     function operations () internal returns (uint, uint, bytes32, bytes32){
         x += 2;
