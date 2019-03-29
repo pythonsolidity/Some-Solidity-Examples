@@ -1,5 +1,7 @@
 pragma solidity ^0.5.5; 
 
+//Solidity setter and getter aka Hello World
+
 contract MyContract {
     string public value;    //get value (implicit getter function)
     
