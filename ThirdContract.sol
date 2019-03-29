@@ -1,5 +1,7 @@
 pragma solidity ^0.5.5;
 
+//Modifiers and global functions
+
 contract MyContract{
     uint256 public peopleCount = 0;
     mapping(uint => Person) public people;
