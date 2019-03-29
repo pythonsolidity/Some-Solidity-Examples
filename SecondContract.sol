@@ -1,5 +1,7 @@
 pragma solidity ^0.5.5; 
 
+// Solidity data types 
+
 contract MyContract {
     string public value = "myValue";
     string public constant fix = "Cannot change";
