@@ -1,5 +1,7 @@
 pragma solidity 0.5.1;
 
+//variations on assignment and return
+
 contract MyContract {
     uint public x = 9;
     uint public x1;
