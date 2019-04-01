@@ -1,5 +1,8 @@
 pragma solidity 0.5.1;
 
+//Contract and individual addresses
+//Selfdestruct!
+
 contract MyContract {
      address payable public addr = address(uint160(address(this)));
      address payable public owner;
