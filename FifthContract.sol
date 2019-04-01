@@ -1,5 +1,7 @@
 pragma solidity ^0.5.5;
 
+//calling functions from another deployed contract
+
 contract ERC20Token {
     string public name;
     mapping(address => uint) public balances; 
