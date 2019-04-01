@@ -1,5 +1,7 @@
 pragma solidity ^0.5.5;
 
+// msg.sender, msg.value, and events 
+
 contract MyContract {
     mapping(address => uint) public balances;
     address payable wallet;
