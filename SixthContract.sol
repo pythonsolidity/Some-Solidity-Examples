@@ -1,5 +1,8 @@
 pragma solidity ^0.5.5;
 
+// Inheritance
+
+//Parent contract
 contract ERC20Token {
     string public name;
     address payable wallet;
@@ -23,8 +26,7 @@ contract ERC20Token {
 }
 
 
-//Inheritance 
-
+//Child contract
 contract MyToken is ERC20Token {
     string public symbol;
     address[] public owners; 
